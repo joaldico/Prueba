@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select Snapshot  Snapshot Select default 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+  >
+    <label
+      class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary MuiFormLabel-filled css-1kty9di-MuiFormLabel-root-MuiInputLabel-root"
+      data-shrink="true"
+      for="select_id"
+      id="select_id-label"
+    >
+      label
+    </label>
+    <div
+      class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl makeStyles-input-3 css-md26zr-MuiInputBase-root-MuiOutlinedInput-root"
+    >
+      <div
+        aria-describedby="select_id-helper-text"
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="select_id-label select_id"
+        class="MuiSelect-select MuiSelect-outlined MuiOutlinedInput-input MuiInputBase-input css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input"
+        id="select_id"
+        role="button"
+        tabindex="0"
+      >
+        data 1
+      </div>
+      <input
+        aria-hidden="true"
+        class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+        tabindex="-1"
+        value="1"
+      />
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiSelect-icon MuiSelect-iconOutlined css-hfutr2-MuiSvgIcon-root-MuiSelect-icon"
+        data-testid="ArrowDropDownIcon"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M7 10l5 5 5-5z"
+        />
+      </svg>
+      <fieldset
+        aria-hidden="true"
+        class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+      >
+        <legend
+          class="css-1z7n62"
+        >
+          <span>
+            label
+          </span>
+        </legend>
+      </fieldset>
+    </div>
+    <p
+      class="MuiFormHelperText-root MuiFormHelperText-sizeMedium MuiFormHelperText-contained MuiFormHelperText-filled css-1wc848c-MuiFormHelperText-root"
+      id="select_id-helper-text"
+    >
+      <span
+        class="makeStyles-p-5"
+      />
+    </p>
+  </div>
+</DocumentFragment>
+`;
