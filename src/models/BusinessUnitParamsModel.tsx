@@ -1,5 +1,3 @@
-import { PortalConfigParamsModelType } from './PortalConfigParamsModel';
-
 export type BusinessUnitParams = {
   setTitleState: any;
   titleState: string;
@@ -27,5 +25,4 @@ export type BusinessUnitParams = {
   contextUrl: string;
   contextUrlHome: string;
   contact_phone: string;
-  portalConfigParams: PortalConfigParamsModelType;
 };

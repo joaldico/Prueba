@@ -2,7 +2,6 @@ import dayjs from 'dayjs';
 import * as EmailValidator from 'email-validator';
 
 import { REGEX_PASSWORD } from '../constants/constants';
-import { getSessionInfo } from '../util/LocalStorage/login';
 
 export function validateEmail(email: string) {
   return EmailValidator.validate(email);
@@ -35,11 +34,6 @@ export const SortArray = (x: any, y: any) => {
 
 export const scrollTo = () => {
   window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-};
-
-export const isAuthenticate = (businessUnitUUID: any) => {
-  const isAuthenticated = getSessionInfo(businessUnitUUID);
-  return !isEmpty(isAuthenticated.token);
 };
 
 export const obfuscateEmail = (email: string) => {
@@ -77,16 +71,6 @@ export const handleContactPhoneNumber = (contactPhone: any) => {
     ' ' +
     phoneNumber?.slice(7);
   return phoneNumber;
-};
-
-export const getTokenAuthentication = (businessUnitUUID: any) => {
-  const isAuthenticated = getSessionInfo(businessUnitUUID);
-
-  if (!isEmpty(isAuthenticated.token)) {
-    return isAuthenticated.token;
-  } else {
-    clearSession();
-  }
 };
 
 export const clearSession = () => {
